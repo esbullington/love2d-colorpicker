@@ -1,0 +1,17 @@
+
+.container {
+  margin-top: 20px;
+}
+
+.row {
+  padding-top: 10px;
+}
+
+#result {
+  padding-left: 10px;
+}
+
+#colorPicker {
+  width: 200px;
+  height: 40px;
+}

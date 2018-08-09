@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+    <title>Color Picker for love2d</title>
+  </head>
+
+
+  <body>
+
+		<div class="container top">
+			<div class="row one">
+				<h3>Color Picker for Love2d</h3>
+			</div>
+			<div class="row two">
+        <input type="color" id="colorPicker">
+			</div>
+			<div class="row three">
+        Result: <span id="result">r: 0.00, g: 0.00, b: 0.00</span>
+			</div>
+			<div class="row four">
+        <button id="resultButton">Place results on clipboard</button>
+			</div>
+			<div class="row five">
+        <button id="fullResultButton">Place results on clipboard, in love2d `setColor` format</button>
+			</div>
+		</div>
+
+    <script src="main.js"></script>
+
+  </body>
+
+</html>
